@@ -1,0 +1,7 @@
+﻿fastapi==0.115.12
+uvicorn[standard]==0.34.0
+httpx==0.28.1
+python-dotenv==1.0.1
+boto3==1.37.18
+google-genai==1.7.0
+pydantic==2.10.6
