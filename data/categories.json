@@ -1,0 +1,370 @@
+{
+  "categories": {
+    "品牌设计": {
+      "keywords": [
+        "品牌",
+        "logo",
+        "标志",
+        "vi",
+        "品牌设计",
+        "品牌视觉",
+        "商标",
+        "品牌标识",
+        "视觉识别",
+        "品牌符号",
+        "品牌手册",
+        "IP形象",
+        "文创周边"
+      ],
+      "negative_patch": [
+        "photorealistic scene",
+        "messy layout",
+        "illegible typography",
+        "overly decorative clutter",
+        "blurry logo edges",
+        "color mismatch",
+        "low resolution graphics",
+        "distorted brand assets",
+        "unrelated background elements",
+        "unreadable text",
+        "off-brand color palette"
+      ]
+    },
+    "食品": {
+      "keywords": [
+        "食品",
+        "美食",
+        "饮料",
+        "餐",
+        "甜点",
+        "咖啡",
+        "蛋糕",
+        "烘焙",
+        "茶饮",
+        "小吃",
+        "生鲜",
+        "酒水",
+        "正餐",
+        "料理",
+        "轻食",
+        "甜品"
+      ],
+      "negative_patch": [
+        "plastic look",
+        "artificial color cast",
+        "unappetizing texture",
+        "burnt edges",
+        "mold spots",
+        "stale appearance",
+        "greasy overflow",
+        "washed out colors",
+        "dirty tableware",
+        "blurry food details",
+        "unnatural shine",
+        "odd food shape"
+      ]
+    },
+    "科技产品": {
+      "keywords": [
+        "科技",
+        "产品",
+        "硬朗",
+        "未来",
+        "工业",
+        "金属",
+        "数码",
+        "智能设备",
+        "消费电子",
+        "3C产品",
+        "芯片",
+        "AI硬件",
+        "赛博",
+        "极简工业风",
+        "精密结构"
+      ],
+      "negative_patch": [
+        "organic texture",
+        "natural wood grain",
+        "rustic decor",
+        "soft handmade look",
+        "dented surface",
+        "scratched finish",
+        "cheap plastic feel",
+        "faded color",
+        "rough edges",
+        "outdated design",
+        "clunky shape",
+        "loose parts"
+      ]
+    },
+    "中国风": {
+      "keywords": [
+        "中国风",
+        "国潮",
+        "水墨",
+        "山水",
+        "书法",
+        "东方",
+        "古风",
+        "汉服",
+        "非遗",
+        "工笔",
+        "敦煌",
+        "青绿山水",
+        "故宫",
+        "中式纹样",
+        "剪纸",
+        "传统工艺"
+      ],
+      "negative_patch": [
+        "cyberpunk neon overload",
+        "western streetwear tone",
+        "random latin typography",
+        "anime style",
+        "oversaturated neon",
+        "western religious symbols",
+        "modern graffiti",
+        "plastic shiny finish",
+        "distorted calligraphy",
+        "incorrect traditional pattern"
+      ]
+    },
+    "室内空间": {
+      "keywords": [
+        "室内",
+        "空间",
+        "家居",
+        "客厅",
+        "卧室",
+        "建筑内",
+        "办公空间",
+        "商业门店",
+        "民宿",
+        "餐厅装修",
+        "软装搭配",
+        "样板间",
+        "展厅",
+        "厨卫设计",
+        "小户型改造"
+      ],
+      "negative_patch": [
+        "distorted perspective",
+        "floating furniture",
+        "broken architecture",
+        "excessive fisheye",
+        "uneven flooring",
+        "mismatched scale",
+        "dirty surfaces",
+        "cluttered items",
+        "bad lighting",
+        "structural cracks",
+        "weird door placement",
+        "inconsistent material texture"
+      ]
+    },
+    "人像": {
+      "keywords": [
+        "人像",
+        "人物",
+        "肖像",
+        "模特",
+        "面部",
+        "写真",
+        "人像摄影",
+        "cosplay",
+        "头像",
+        "半身照",
+        "全身照",
+        "人像插画",
+        "虚拟人",
+        "妆容造型"
+      ],
+      "negative_patch": [
+        "deformed face",
+        "extra fingers",
+        "asymmetric eyes",
+        "plastic skin",
+        "missing limbs",
+        "cross-eyed",
+        "blurry face",
+        "weird hair texture",
+        "unnatural skin tone",
+        "distorted proportions",
+        "extra limbs",
+        "ugly hands",
+        "mismatched eye color"
+      ]
+    },
+    "海报KV": {
+      "keywords": [
+        "海报",
+        "kv",
+        "主视觉",
+        "广告图",
+        "活动图",
+        "宣传海报",
+        "节日海报",
+        "品牌海报",
+        "演唱会主视觉",
+        "电商banner",
+        "活动宣传图",
+        "发布会kv",
+        "展览主视觉"
+      ],
+      "negative_patch": [
+        "text cutoff",
+        "subject out of frame",
+        "weak hierarchy",
+        "visual clutter",
+        "low contrast text",
+        "pixelated graphics",
+        "unclear subject",
+        "misaligned elements",
+        "garbled text",
+        "mismatched color scheme",
+        "empty composition",
+        "unrelated decorative elements"
+      ]
+    },
+    "电商商品图": {
+      "keywords": [
+        "电商主图",
+        "商品图",
+        "产品展示图",
+        "白底图",
+        "场景图",
+        "详情页图",
+        "亚马逊主图",
+        "抖音商品图",
+        "带货图",
+        "产品实拍图",
+        "listing图"
+      ],
+      "negative_patch": [
+        "shadow distortion",
+        "background clutter",
+        "product deformation",
+        "uneven lighting",
+        "color deviation from real product",
+        "blurry product details",
+        "watermark",
+        "text overlap",
+        "fuzzy edges",
+        "uneven white background"
+      ]
+    },
+    "潮玩IP": {
+      "keywords": [
+        "潮玩",
+        "手办",
+        "盲盒",
+        "ip形象",
+        "公仔",
+        "搪胶玩偶",
+        "Q版形象",
+        "潮玩设计",
+        "摆件",
+        "周边",
+        "关节可动人偶"
+      ],
+      "negative_patch": [
+        "rough surface",
+        "paint chipping",
+        "deformed limbs",
+        "ugly face",
+        "cheap plastic texture",
+        "uneven color",
+        "smudged details",
+        "sharp edges",
+        "loose joints",
+        "stain marks"
+      ]
+    },
+    "自然风光": {
+      "keywords": [
+        "风景",
+        "自然风光",
+        "山水",
+        "海景",
+        "雪山",
+        "森林",
+        "星空",
+        "日出日落",
+        "草原",
+        "荒漠",
+        "自然景观",
+        "瀑布",
+        "湖泊"
+      ],
+      "negative_patch": [
+        "littered trash",
+        "power lines",
+        "urban buildings",
+        "blurry horizon",
+        "overexposed sky",
+        "color distortion",
+        "unnatural cloud shape",
+        "dead plants",
+        "random people in frame",
+        "road signs"
+      ]
+    },
+    "插画创作": {
+      "keywords": [
+        "插画",
+        "手绘",
+        "漫画",
+        "绘本",
+        "商业插画",
+        "扁平化插画",
+        "厚涂插画",
+        "线稿",
+        "矢量插画",
+        "二次元插画",
+        "国潮插画",
+        "儿童插画"
+      ],
+      "negative_patch": [
+        "messy linework",
+        "uneven coloring",
+        "perspective error",
+        "broken character proportions",
+        "garbled text in speech bubbles",
+        "low resolution",
+        "pixelated edges",
+        "blurry details",
+        "color bleeding",
+        "unfinished sketch"
+      ]
+    },
+    "服饰穿搭": {
+      "keywords": [
+        "服装",
+        "穿搭",
+        "时装",
+        "服饰设计",
+        "鞋包",
+        "配饰",
+        "成衣",
+        "高定",
+        "潮服",
+        "穿搭展示",
+        "珠宝首饰",
+        "鞋帽",
+        "服装设计"
+      ],
+      "negative_patch": [
+        "wrinkled fabric",
+        "stained clothes",
+        "mismatched size",
+        "deformed buttons/zippers",
+        "cheap fabric texture",
+        "uneven hemming",
+        "ugly pattern alignment",
+        "weird fit",
+        "frayed edges",
+        "missing accessories"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "01306977a7de4bbda4d490dbf697c837",
+  "status": "running",
+  "created_at": "2026-03-17T08:46:01.830564Z",
+  "updated_at": "2026-03-17T08:46:01.831564Z",
+  "input": {
+    "description": "????KV???????????????",
+    "reference_image_url": "",
+    "reference_image_data_url": "",
+    "reference_weight": 0.7,
+    "aspect_ratio_hint": "",
+    "image_size": "1K",
+    "style_strength": "medium",
+    "seed": null,
+    "metadata": {}
+  },
+  "result": null,
+  "error": ""
+}

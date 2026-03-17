@@ -1,0 +1,215 @@
+﻿.canvas-shell {
+  min-height: 100vh;
+  background: radial-gradient(circle at 15% 10%, #0a2038 0%, #04101d 42%, #02070f 100%);
+  color: #e7f3ff;
+  padding: 16px;
+}
+
+.canvas-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.canvas-topbar h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.canvas-topbar p {
+  margin: 2px 0 0;
+  color: #8db5d6;
+  font-size: 13px;
+}
+
+.back-btn {
+  border: 1px solid #2d6c98;
+  background: #0f2a42;
+  color: #d9edff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.canvas-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 12px;
+  min-height: calc(100vh - 90px);
+}
+
+.canvas-stage {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #214a69;
+  border-radius: 16px;
+  background: #050f1a;
+  cursor: grab;
+}
+
+.canvas-stage:active {
+  cursor: grabbing;
+}
+
+.canvas-grid {
+  position: absolute;
+  inset: 0;
+  transform-origin: 0 0;
+  background-image:
+    linear-gradient(rgba(60, 120, 160, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(60, 120, 160, 0.15) 1px, transparent 1px);
+  background-size: 40px 40px;
+  min-width: 10000px;
+  min-height: 10000px;
+}
+
+.canvas-element {
+  position: absolute;
+  border: 1px solid #2a618b;
+  border-radius: 12px;
+  background: rgba(8, 25, 42, 0.93);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
+  overflow: hidden;
+  user-select: none;
+}
+
+.canvas-element pre {
+  margin: 0;
+  padding: 10px;
+  white-space: pre-wrap;
+  font-size: 12px;
+  line-height: 1.45;
+  color: #d8ecff;
+}
+
+.canvas-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.canvas-toolbar {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid #2a618b;
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: rgba(5, 19, 33, 0.92);
+}
+
+.canvas-toolbar button {
+  border: 1px solid #2a618b;
+  background: #15334d;
+  color: #e4f3ff;
+  border-radius: 999px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.canvas-sidebar {
+  border: 1px solid #214a69;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #071524, #06101d);
+  padding: 12px;
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+
+.canvas-sidebar h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.canvas-sidebar label {
+  display: grid;
+  gap: 6px;
+  color: #a8c8de;
+  font-size: 12px;
+}
+
+.canvas-sidebar textarea,
+.canvas-sidebar input[type="file"],
+.canvas-sidebar input[type="range"] {
+  width: 100%;
+}
+
+.canvas-sidebar textarea {
+  min-height: 120px;
+  border: 1px solid #2a618b;
+  border-radius: 10px;
+  background: #03101f;
+  color: #e8f4ff;
+  padding: 10px;
+  resize: vertical;
+}
+
+.ref-preview {
+  width: 100%;
+  border: 1px solid #2a618b;
+  border-radius: 10px;
+  max-height: 180px;
+  object-fit: cover;
+}
+
+.run-btn {
+  border: none;
+  border-radius: 10px;
+  min-height: 40px;
+  background: linear-gradient(90deg, #2dbbff, #3b7cf2);
+  color: #001425;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.run-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.panel-error {
+  margin: 0;
+  color: #ff8a8a;
+  font-weight: 700;
+}
+
+.result-panel {
+  border: 1px solid #2a618b;
+  border-radius: 10px;
+  background: #03101f;
+  padding: 8px;
+  display: grid;
+  gap: 6px;
+}
+
+.result-panel p,
+.result-panel h4,
+.result-panel pre {
+  margin: 0;
+}
+
+.result-panel h4 {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #98bad3;
+}
+
+.result-panel pre {
+  border: 1px solid #27597d;
+  border-radius: 8px;
+  padding: 8px;
+  white-space: pre-wrap;
+  font-size: 12px;
+}
+
+@media (max-width: 1100px) {
+  .canvas-layout {
+    grid-template-columns: 1fr;
+  }
+}

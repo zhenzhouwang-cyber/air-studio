@@ -1,0 +1,41 @@
+{
+  "task_id": "fe11b440231e46e4af846fe38bdc2a29",
+  "status": "completed",
+  "created_at": "2026-03-17T08:54:26.059748Z",
+  "updated_at": "2026-03-17T08:54:53.097049Z",
+  "input": {
+    "description": "????????????????",
+    "reference_image_url": "",
+    "reference_image_data_url": "",
+    "reference_weight": 0.7,
+    "aspect_ratio_hint": "",
+    "image_size": "1K",
+    "style_strength": "medium",
+    "seed": null,
+    "metadata": {}
+  },
+  "result": {
+    "final_prompt": "Professional commercial poster KV (key visual), centered core graphic element, placeholder for brand headline and subhead text, vibrant eye-catching color scheme, modern minimalist design aesthetic, 10% safe padding on all sides, all content fully contained within frame no edge cut-off, optimized for marketing and advertising use cases",
+    "negative_prompt": "blurry, distorted graphics, cut-off edges, illegible text, watermarks, artifacts, low resolution, unbalanced layout, content outside safe margins, harsh distracting shadows, grainy, off-center focal point, text cutoff, subject out of frame, weak hierarchy, visual clutter, low contrast text, pixelated graphics, unclear subject, misaligned elements, garbled text, mismatched color scheme, empty composition, unrelated decorative elements",
+    "aspect_ratio": "16:9",
+    "image_size": "1K",
+    "style_strength": "medium",
+    "camera": "50mm prime lens, f/8 aperture, flat front-facing camera, sharp edge-to-edge focus, zero perspective distortion",
+    "lighting": "soft even diffused studio lighting, 5500K neutral color temperature, no harsh shadows, uniform brightness across the entire poster frame, consistent accurate color rendering",
+    "composition": "symmetric centered composition, 10% safe margin on all four edges, all core key visual elements fully in frame with no cut-off, balanced negative space around focal elements, clean ordered layout",
+    "seed": 123456,
+    "category": "海报KV",
+    "qa_report": {
+      "has_composition_terms": false,
+      "has_lighting_terms": true,
+      "style_matches_category": true,
+      "negative_prompt_specific": true,
+      "score": 80,
+      "notes": [
+        "Missing composition tokens"
+      ]
+    },
+    "debug_trace_path": "E:\\Opencode\\lovart\\logs\\pipeline.log"
+  },
+  "error": ""
+}

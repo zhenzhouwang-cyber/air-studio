@@ -1,0 +1,41 @@
+{
+  "task_id": "56314bc95b0b4edc880e7d4c0f2756c2",
+  "status": "completed",
+  "created_at": "2026-03-17T08:46:12.750869Z",
+  "updated_at": "2026-03-17T08:46:37.368656Z",
+  "input": {
+    "description": "??????????????????",
+    "reference_image_url": "",
+    "reference_image_data_url": "",
+    "reference_weight": 0.7,
+    "aspect_ratio_hint": "1:1",
+    "image_size": "1K",
+    "style_strength": "medium",
+    "seed": null,
+    "metadata": {}
+  },
+  "result": {
+    "final_prompt": "Professional commercial promotional poster KV, modern clean aesthetic, central core promotional subject fully placed within 10% safe margin on all sides, no edge cut-off, bold brand typography placeholder, brand logo placeholder, harmonious brand color scheme, high readability for commercial display",
+    "negative_prompt": "cropped content, cut off edges, distorted text, blurry logo, messy layout, watermarks, unwanted artifacts, low resolution, perspective distortion, harsh shadows, overexposed areas, underexposed areas, off-center subject, content outside safe margins, text cutoff, subject out of frame, weak hierarchy, visual clutter",
+    "aspect_ratio": "1:1",
+    "image_size": "1K",
+    "style_strength": "medium",
+    "camera": "Flat orthographic camera, zero perspective distortion, consistent focal plane for all graphic design elements",
+    "lighting": "Even soft diffused studio lighting, uniform brightness across all design elements, no harsh shadows, balanced exposure for all content",
+    "composition": "Symmetrical centered composition, 10% safe margin on all four edges, all core design elements placed within the safe zone, no content touching the frame borders, subject fully contained in frame with no cut-off",
+    "seed": 782491,
+    "category": "海报KV",
+    "qa_report": {
+      "has_composition_terms": false,
+      "has_lighting_terms": true,
+      "style_matches_category": true,
+      "negative_prompt_specific": true,
+      "score": 80,
+      "notes": [
+        "Missing composition tokens"
+      ]
+    },
+    "debug_trace_path": "E:\\Opencode\\lovart\\logs\\pipeline.log"
+  },
+  "error": ""
+}

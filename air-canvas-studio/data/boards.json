@@ -1,0 +1,16 @@
+{
+  "boards": {
+    "41ff6b321a4c48f6acd942e89f28987d": {
+      "id": "41ff6b321a4c48f6acd942e89f28987d",
+      "title": "Test",
+      "viewport": {
+        "x": 0.0,
+        "y": 0.0,
+        "zoom": 1.0
+      },
+      "elements": [],
+      "created_at": "2026-03-17T09:19:31.644755Z",
+      "updated_at": "2026-03-17T09:19:31.644755Z"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "boards": {
+    "1bb239d6c3c0460f9fc3eacb788d4d2f": {
+      "id": "1bb239d6c3c0460f9fc3eacb788d4d2f",
+      "title": "Canvas Test",
+      "created_at": "2026-03-17T09:06:07.589712Z",
+      "updated_at": "2026-03-17T09:06:35.144988Z",
+      "viewport": {
+        "x": 0.0,
+        "y": 0.0,
+        "zoom": 1.0
+      },
+      "elements": [
+        {
+          "id": "bfcea38889d343e7b313e739ed126075",
+          "type": "note",
+          "x": 120.0,
+          "y": 120.0,
+          "w": 420.0,
+          "h": 220.0,
+          "content": "Prompt:\nProfessional commercial marketing poster KV, minimalist eye-catching layout, bold legible headline text placed in upper section, brand logo aligned to top left with clear visibility, core promotional visual subject centered perfectly, clear call-to-action text in lower section, brand-consistent vibrant color scheme, 10% safe margin on all sides to avoid content cut-off, optimized for advertising display\n\nNegative:\nblurry distorted text, pixelated logo, subject cut off at edges, cluttered messy layout, garish conflicting colors, illegible typography, watermarks, digital artifacts, extra irrelevant elements, dark underexposed areas, overexposed washed out areas, text cutoff, subject out of frame, weak hierarchy, visual clutter, low contrast text, pixelated graphics, unclear subject, misaligned elements, garbled text, mismatched color scheme, empty composition, unrelated decorative elements",
+          "image_url": ""
+        }
+      ],
+      "command_history": [
+        {
+          "id": "661bfa5e732545eb8a0cc43d82c27b8f",
+          "created_at": "2026-03-17T09:06:35.144988+00:00",
+          "instruction": "??????????????????",
+          "optimized_prompt": "Professional commercial marketing poster KV, minimalist eye-catching layout, bold legible headline text placed in upper section, brand logo aligned to top left with clear visibility, core promotional visual subject centered perfectly, clear call-to-action text in lower section, brand-consistent vibrant color scheme, 10% safe margin on all sides to avoid content cut-off, optimized for advertising display",
+          "negative_prompt": "blurry distorted text, pixelated logo, subject cut off at edges, cluttered messy layout, garish conflicting colors, illegible typography, watermarks, digital artifacts, extra irrelevant elements, dark underexposed areas, overexposed washed out areas, text cutoff, subject out of frame, weak hierarchy, visual clutter, low contrast text, pixelated graphics, unclear subject, misaligned elements, garbled text, mismatched color scheme, empty composition, unrelated decorative elements",
+          "category": "海报KV",
+          "score": 80
+        }
+      ]
+    }
+  }
+}
